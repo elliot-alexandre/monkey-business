@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_blocks_blocks",
+  "info": {
+    "displayName": "Block",
+    "icon": "shapes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "IMAGE",
+        "TEXT"
+      ]
+    },
+    "Variant": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "primaryReversed"
+      ]
+    },
+    "Text": {
+      "type": "richtext"
+    },
+    "Links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link"
+    },
+    "Medias": {
+      "type": "component",
+      "repeatable": true,
+      "component": "medias.media"
+    }
+  }
+}

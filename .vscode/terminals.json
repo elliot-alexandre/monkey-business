@@ -1,0 +1,24 @@
+{
+  "autorun": true,
+  "autokill": true,
+  "terminals": [
+    {
+      "name": "root",
+      "cwd": "[workspaceFolder]",
+      "open": true,
+      "focus": true
+    },
+    {
+      "name": "app",
+      "cwd": "[workspaceFolder]/apps/banana",
+      "open": true,
+      "focus": false
+    },
+    {
+      "name": "cms",
+      "cwd": "[workspaceFolder]/packages/cms",
+      "open": true,
+      "focus": false
+    }
+  ]
+}

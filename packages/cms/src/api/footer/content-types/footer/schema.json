@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "Copyright": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "SubNavigations": {
+      "displayName": "SubNavigation",
+      "type": "component",
+      "repeatable": true,
+      "component": "sub-navigation.sub-navigation"
+    }
+  }
+}

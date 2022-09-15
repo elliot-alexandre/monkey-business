@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sub_navigation_sub_navigations",
+  "info": {
+    "displayName": "SubNavigation",
+    "icon": "equals",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string",
+      "required": false
+    },
+    "Links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link"
+    }
+  }
+}
