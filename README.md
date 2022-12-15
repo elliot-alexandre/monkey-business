@@ -1,14 +1,8 @@
-# storefront
-
-`Product Shop Webiste`
+# Next.js React stack
 
 ---
 
 ## Description
-
-The following project is built as a meno repo with `turbo repo`. The goal behind
-this choice is to create a single repo with all the environment responsible of
-building the website and feeding it with data.
 
 The following app is based on the
 [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) philosophy
@@ -19,12 +13,6 @@ management is important with theme variables based on the logic of the design.
 The choice of `Strapi` is for having a Headless CMS without limitation and
 excessive pricy tiers. It's self-hosted, so it will need a separate deployment
 and management of authorization to avoid unauthorized access.
-
-For the app `Next.js` was choosen for the ssr capabilties that are suffisant for
-the project and the serverless components that could be helping the website on
-the performance for a better lighthouse score. GraphQL queries could be run on
-the run-time if the query is too important for it to be in the build.
-(Pagination can be added)
 
 ---
 
