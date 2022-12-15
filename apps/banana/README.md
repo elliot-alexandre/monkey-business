@@ -22,13 +22,6 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are
 treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead
 of React pages.
 
-## Env
-
-```
-GRAPHQL_API_ENDPOINT=<String>!
-SECRET_ADMIN_TOKEN_API=<String>!
-```
-
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

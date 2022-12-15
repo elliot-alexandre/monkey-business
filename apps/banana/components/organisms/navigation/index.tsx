@@ -1,3 +1,2 @@
-export * from './footer';
-export * from './navbar';
-export * from './newsletter';
+export * from "./mobile-menu";
+export * from "./navbar";

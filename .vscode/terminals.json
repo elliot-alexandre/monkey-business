@@ -15,8 +15,8 @@
       "focus": false
     },
     {
-      "name": "cms",
-      "cwd": "[workspaceFolder]/packages/cms",
+      "name": "api",
+      "cwd": "[workspaceFolder]/packages/api",
       "open": true,
       "focus": false
     }

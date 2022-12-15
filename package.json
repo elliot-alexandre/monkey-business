@@ -1,5 +1,5 @@
 {
-  "name": "monkey-business",
+  "name": "banana-business",
   "version": "1.0.0",
   "private": true,
   "workspaces": [
@@ -10,14 +10,14 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "open": "code .vscode/storefront.code-workspace",
+    "open": "code .vscode/banana.code-workspace",
     "reset": "rm -rf ./node_modules packages/**/node_modules && yarn",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "prettier": "^2.5.1",
-    "turbo": "latest"
+    "prettier": "^2.8.1",
+    "turbo": "1.6.3"
   },
   "engines": {
     "npm": ">=7.0.0",
@@ -25,6 +25,6 @@
   },
   "packageManager": "yarn@1.22.17",
   "dependencies": {
-    "vercel": "^23.1.2"
+    "vercel": "^28.8.0"
   }
 }

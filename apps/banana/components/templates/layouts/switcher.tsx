@@ -1,14 +1,14 @@
-import React, { HTMLAttributes } from 'react';
-import { useTracked } from '../../providers/viewport.provider';
-import { HEADING_SIZE, Section } from '../../types';
-import { PrimitiveProps } from '../../types/primitive.types';
-import { getMergedClass } from '../../utils/components.utilities';
-import { Paragraph } from '../atoms';
-import { Heading } from '../atoms/heading';
-import { Block, Container } from '../templates';
-import { VARIANTS } from './../../types/sections.types';
-import * as styles from './switcher.css';
-import { Variants } from './switcher.css';
+import React, { HTMLAttributes } from "react";
+import { useTracked } from "../../../providers/viewport.provider";
+import { HEADING_SIZE, Section } from "../../../types";
+import { PrimitiveProps } from "../../../types/primitive.types";
+import { VARIANTS } from "../../../types/sections.types";
+import { getMergedClass } from "../../../utils/components.utilities";
+import { Paragraph } from "../../atoms";
+import { Heading } from "../../atoms/heading";
+import { Block, Container } from "../../templates";
+import * as styles from "./switcher.css";
+import { Variants } from "./switcher.css";
 
 type Props = PrimitiveProps<any> &
   HTMLAttributes<HTMLElement> & { sectionProps?: Section };

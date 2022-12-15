@@ -1,7 +1,7 @@
 import { style } from "@vanilla-extract/css";
 
 export const label = style({
-  fontFamily: "roc-grotesk, sans-serif",
+  fontFamily: ", sans-serif",
   fontWeight: 400,
   color: "#FFFFFF",
   fontSize: "14px",

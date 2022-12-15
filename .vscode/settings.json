@@ -25,6 +25,6 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "**/node_modules/**": false
+    "**/node_modules/**": true
   }
 }

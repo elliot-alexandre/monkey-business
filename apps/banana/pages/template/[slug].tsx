@@ -1,6 +1,4 @@
 import { Heading } from "../../components/atoms";
-import { PageQuery } from "../../fragments/templatePageQuery";
-import { client } from "../../providers/apolloClient";
 import { Page, Section } from "../../types";
 
 type Props = {
@@ -21,18 +19,17 @@ export default function Page({ pageProps }: Props) {
     </>
   );
 }
-
+/*
 export async function getStaticProps() {
   const { data } = await client.query({
     query: PageQuery,
     variables: { var: "test" },
   });
-
-  console.log(process.env);
-
+  
   return {
     props: {
       pageProps: { ...data },
     },
   };
 }
+*/

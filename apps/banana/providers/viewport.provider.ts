@@ -1,12 +1,12 @@
-import { debounce } from 'lodash';
-import React, { useState } from 'react';
-import { createContainer } from 'react-tracked';
-import { BREAKPOINT, VIEWPORT } from '../types/viewport.types';
+import { debounce } from "lodash";
+import React, { useState } from "react";
+import { createContainer } from "react-tracked";
+import { BREAKPOINT, VIEWPORT } from "../types/viewport.types";
 
 declare let window: Window | undefined;
 
 export const useValue: any = () => {
-  const windowPage = typeof window !== 'undefined' && window;
+  const windowPage = typeof window !== "undefined" && window;
 
   windowPage ? windowPage.innerWidth : 768;
 
@@ -17,7 +17,7 @@ export const useValue: any = () => {
       // @ts-ignore
       windowPage?.innerWidth !== undefined &&
       // @ts-ignore
-      windowPage?.innerWidth < BREAKPOINT.tablet
+      windowPage?.innerWidth < BREAKPOINT.tabletMedium
     ) {
       return VIEWPORT.mobile;
     }
@@ -46,22 +46,22 @@ export const useValue: any = () => {
 
   React.useEffect(() => {
     if (windowPage) {
-      windowPage.addEventListener('resize', handle);
+      windowPage.addEventListener("resize", handle);
     }
     return () => {
       if (windowPage) {
-        windowPage.removeEventListener('resize', handle);
+        windowPage.removeEventListener("resize", handle);
       }
     };
   }, []);
 
   React.useEffect(() => {
-    if (width !== undefined && width < BREAKPOINT.tablet) {
+    if (width !== undefined && width < BREAKPOINT.tabletMediumMedium) {
       setViewport(VIEWPORT.mobile);
     } else if (
       width !== undefined &&
       width < BREAKPOINT.desktopXSmall &&
-      width >= BREAKPOINT.tablet
+      width >= BREAKPOINT.tabletMediumMedium
     ) {
       setViewport(VIEWPORT.tablet);
     } else if (width !== undefined && width >= BREAKPOINT.desktopXSmall) {
