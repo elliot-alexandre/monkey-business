@@ -77,5 +77,4 @@ GraphQL endpoint + Serverless functions).
 
 Links for all the `README.md` in the mono-repo.
 
-- ### [App-Documentation](./apps/storefront-website/README.md)
-- ### [Strapi-Documentation](./packages/strapi/README.md)
+- ### [App-Documentation](./apps/banana/README.md)
